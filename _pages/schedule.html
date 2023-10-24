@@ -34,15 +34,16 @@ title: Full Conference Schedule
   <div class="row column">
     <h2 class="day">Tutorials: Sunday, October 8 (Online)</h2>
     <p class="lead">
-      Tutorials are a separate registration and are $199 per session. Buy
+      Tutorials are a separate registration and are $199 per session. {% comment
+      %}Buy
       <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell
-      out! All tutorials are online this year due to venue availability in
-      Durham.
+      out! {% endcomment %} All tutorials are online this year due to venue
+      availability in Durham.
     </p>
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Sunday' %} {% include
-      schedule-tutorials-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Sunday' %} {% include
+          schedule-tutorials-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
@@ -54,8 +55,8 @@ title: Full Conference Schedule
     <h2 class="day">Talks: Monday, October 16</h2>
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Monday' %} {% include
-      schedule-talks-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Monday' %} {% include
+          schedule-talks-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
@@ -73,8 +74,8 @@ title: Full Conference Schedule
     {% endcomment %}
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Tuesday' %} {% include
-      schedule-talks-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Tuesday' %} {% include
+          schedule-talks-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
@@ -92,8 +93,8 @@ title: Full Conference Schedule
     {% endcomment %}
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Wednesday' %} {% include
-      schedule-talks-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Wednesday' %} {% include
+          schedule-talks-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
@@ -111,8 +112,8 @@ title: Full Conference Schedule
     {% endcomment %}
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Thursday' %} {% include
-      schedule-sprints-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Thursday' %} {% include
+          schedule-sprints-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
@@ -130,8 +131,8 @@ title: Full Conference Schedule
     {% endcomment %}
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Friday' %} {% include
-      schedule-sprints-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Friday' %} {% include
+          schedule-sprints-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>
