@@ -16,6 +16,7 @@ permalink: /talks/afropython-using-django-to-change-black-people-life-in-brazil/
 presenter_slugs:
 - felipe
 published: true
+featured: true
 room: Junior Ballroom
 sitemap: true
 slug: afropython-using-django-to-change-black-people-life-in-brazil
@@ -25,6 +26,7 @@ tags:
 - how I used Django
 title: 'AfroPython: Using Django to change black people life in Brazil'
 track: t0
+video_url: https://youtu.be/FNDCGyTA5fE
 ---
 
 I'm Felipe de Morais, Co-CEO and co-founder of AfroPython. In this talk, I will share the path of AfroPython in Brazil(http://afropython.org/) and how the Python community was involved in growing and building this community of black people in IT. And how we became a company to help people thrive using Python.
